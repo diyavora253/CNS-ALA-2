@@ -16,7 +16,7 @@ Common hash algorithms used in your program:
 SHA-1
 SHA-256
 SHA-512
-✨ Properties of Cryptographic Hash Functions
+Properties of Cryptographic Hash Functions
 Deterministic
 Same input → same hash every time
 Fixed Length Output
@@ -66,8 +66,9 @@ SHA-512
  File integrity verification
  Digital signatures
  Blockchain technology
-✅ Conclusion
+ Conclusion
 The program shows how hashing works
 Demonstrates the avalanche effect clearly
-Highlights why hashing is important for security and data protection <img width="812" height="569" alt="Screenshot 2026-04-09 002610" src="https://github.com/user-attachments/assets/23381263-13a4-45f5-b29e-5b3dbca63da3" />
+Highlights why hashing is important for security and data protection
+<img width="812" height="569" alt="Screenshot 2026-04-09 002610" src="https://github.com/user-attachments/assets/23381263-13a4-45f5-b29e-5b3dbca63da3" />
 
