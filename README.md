@@ -101,7 +101,7 @@ print("SHA-256:", sha256_2)
 print("SHA-512:", sha512_2)
 
 
-print("\n⚡ AVALANCHE EFFECT OBSERVED!")
+print("\n  AVALANCHE EFFECT OBSERVED!")
 print("Even a small change in input gives completely different hash output.")
 
 <img width="812" height="569" alt="Screenshot 2026-04-09 002610" src="https://github.com/user-attachments/assets/23381263-13a4-45f5-b29e-5b3dbca63da3" />
