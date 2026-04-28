@@ -70,5 +70,39 @@ SHA-512
 The program shows how hashing works
 Demonstrates the avalanche effect clearly
 Highlights why hashing is important for security and data protection
+
+import hashlib
+
+# Function to generate hashes
+def generate_hashes(message):
+    sha1 = hashlib.sha1(message.encode()).hexdigest()
+    sha256 = hashlib.sha256(message.encode()).hexdigest()
+    sha512 = hashlib.sha512(message.encode()).hexdigest()
+    
+    return sha1, sha256, sha512
+
+# Input message
+msg1 = input("Enter original message: ")
+msg2 = input("Enter slightly changed message: ")
+
+# Generate hashes
+sha1_1, sha256_1, sha512_1 = generate_hashes(msg1)
+sha1_2, sha256_2, sha512_2 = generate_hashes(msg2)
+
+# Display results
+print("\n🔹 ORIGINAL MESSAGE HASHES")
+print("SHA-1  :", sha1_1)
+print("SHA-256:", sha256_1)
+print("SHA-512:", sha512_1)
+
+print("\n🔹 MODIFIED MESSAGE HASHES")
+print("SHA-1  :", sha1_2)
+print("SHA-256:", sha256_2)
+print("SHA-512:", sha512_2)
+
+
+print("\n⚡ AVALANCHE EFFECT OBSERVED!")
+print("Even a small change in input gives completely different hash output.")
+
 <img width="812" height="569" alt="Screenshot 2026-04-09 002610" src="https://github.com/user-attachments/assets/23381263-13a4-45f5-b29e-5b3dbca63da3" />
 
